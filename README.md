@@ -10,6 +10,6 @@ Raw PCM (big endian, 24-bit signed, 48000 kHz, stereo interleaved) delivered in 
 ###Receiving a stream
 To recieve an Axia Livewire stream, your client needs to join the multicast group associated with the Livewire channel you are interested in. The protocol allows for 32767 channels in the multicast range of 239.192.xxx.xxx. Add the channel number to the base ip (239.192.0.0) to find the multicast address. For example, channel number 27 would have a multicast address of 239.192.0.27 while channel number 1212 would be 239.192.4.188.
 
-`livewireStreamMulticastAddr = 0xEFC00000 + ChannelNumber;`
+`livewireStreamMulticastAddr = 0xEFC00000 + channelNumber;`
 ###A look at the packet
 coming soon...
