@@ -10,6 +10,12 @@ Raw PCM (big endian, 24-bit signed, 48000 kHz, stereo interleaved) delivered in 
 ###Receiving a stream
 To recieve an Axia Livewire stream, your client needs to join the multicast group associated with the Livewire channel. Add the Axia channel number to the base ip (239.192.0.0) to find its multicast address. Axia channel 27 has a multicast address of 239.192.0.27 and  Axia channel 1212 is 239.192.4.188. See: <a href = "https://gist.github.com/kylophone/a10e2c88ced3bf5e7674">this gist</a>.
 
+If you are using a backfeed stream, the multicast base IP is 239.193.0.0.
+
+If you are using a backfeed livestream, the multicast base IP is 239.195.0.0.
+
+If you are using a surround stream, the multicast base IP is 239.196.0.0.
+
 `livewireStreamMulticastAddr = 0xEFC00000 + channelNumber;`
 ###A look at the packet
 
