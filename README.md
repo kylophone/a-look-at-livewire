@@ -30,7 +30,7 @@ There are three different types of Livewire streams:
 | IP Header         | 20    |                                                                                                                         |
 | UDP Header        | 8     |                                                                                                                         |
 | RTP Header        | 12    |                                                                                                                         |
-| Audio Payload     | 1440 or 720  | Either 240 Samples or 120 Samples at 48 kHz, 24 bits, stereo                                                    |
+| Audio Payload     | 1440 or 720  | Either 240 Samples or 120 Samples at 48 kHz, 24 bits, stereo. Configurable.                                                    |
 
 Total bytes per packet: 1440, with core delay = 5ms (respective values of 720 bytes and 2.5ms using the variant format)
 
