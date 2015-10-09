@@ -43,7 +43,7 @@ Total bytes per packet: 1440, with core delay = 5ms (respective values of 720 by
 | IP Header         | 20    |                                                                                                                         |
 | UDP Header        | 8     |                                                                                                                         |
 | RTP Header        | 12    |                                                                                                                         |
-| Audio             | 72    | 12 Samples at 48 kHz, 24 bits, stereo                                                                                   |
+| Audio Payload     | 72    | 12 Samples at 48 kHz, 24 bits, stereo                                                                                   |
 
 Total bytes per packet = 72, with core delay 2.5ms
 
@@ -56,7 +56,7 @@ Total bytes per packet = 72, with core delay 2.5ms
 | IP Header         | 20    |                                                                                                                         |
 | UDP Header        | 8     |                                                                                                                         |
 | RTP Header        | 12    |                                                                                                                         |
-| Audio             | 1440  | 60 Samples at 48 kHz, 24 bits, stereo + 5.1 (eight channels                                                             |
+| Audio Payload     | 1440  | 60 Samples at 48 kHz, 24 bits, stereo + 5.1 (eight channels                                                             |
 
 Total bytes per packet = 1440, with core delay 1.25ms
 
